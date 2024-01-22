@@ -1,4 +1,4 @@
-KingBomb // powered by Nerp1e
+TrashBomb // powered by Nerp1e
 
 INSTALLING
 --------------------------------
